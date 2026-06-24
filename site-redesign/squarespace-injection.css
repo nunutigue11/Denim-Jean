@@ -1,0 +1,108 @@
+/* =========================================================
+   MR. MIDWEST — Squarespace Code Injection CSS
+   Where to paste: Settings > Advanced > Code Injection > Header
+   Wrap it in <style> tags, like this:
+
+   <style>
+   ...paste everything below this line...
+   </style>
+
+   This targets common Squarespace 7.1 class names. If a section
+   doesn't visibly change, right-click that element in your
+   browser > Inspect, find its class, and send it to me so I can
+   fix the selector.
+   ========================================================= */
+
+/* ---- Global type & color system ---- */
+:root {
+  --mw-ink: #111111;
+  --mw-paper: #f7f5f1;     /* warm off-white instead of stark white */
+  --mw-line: #d8d2c4;
+  --mw-accent: #5a3e2b;    /* denim/leather brown, swap for your brand color */
+}
+
+body {
+  background-color: var(--mw-paper) !important;
+  color: var(--mw-ink);
+}
+
+/* Tighter, more editorial heading tracking */
+h1, h2, h3, .sqsrte-large {
+  letter-spacing: 0.02em;
+}
+
+/* ---- Header / nav ---- */
+.Header,
+.header-announcement-bar-wrapper {
+  background-color: var(--mw-paper) !important;
+  border-bottom: 1px solid var(--mw-line);
+}
+
+.Header-nav-item a {
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+/* ---- Hero section image treatment ---- */
+.Index-page-content .hero,
+.section-background img,
+.image-block-outer-wrapper img {
+  filter: contrast(1.05) saturate(0.95);
+}
+
+/* ---- Product grid: give cards more breathing room ---- */
+.ProductList,
+.product-grid,
+.grid-container {
+  gap: 32px !important;
+}
+
+.ProductList-grid .grid-item {
+  margin-bottom: 16px;
+}
+
+/* Product image: subtle hover zoom for a less static feel */
+.ProductList-grid .ProductList-image img,
+.product-image img {
+  transition: transform 0.5s ease;
+}
+.ProductList-grid .grid-item:hover .ProductList-image img,
+.product-image:hover img {
+  transform: scale(1.04);
+}
+
+/* ---- "1 of 1" scarcity tag (add this class via a Code Block on each World Maison product) ---- */
+.mw-one-of-one-tag {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid var(--mw-ink);
+  color: var(--mw-ink);
+}
+
+/* ---- Section dividers: replace hard white/black breaks with warm tone ---- */
+.page-section {
+  background-color: var(--mw-paper);
+}
+
+/* ---- Buttons: square, confident, no rounded "app" feel ---- */
+.sqs-block-button-element {
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem !important;
+  padding: 14px 28px !important;
+}
+
+/* ---- Footer: quiet it down ---- */
+.Footer {
+  background-color: var(--mw-ink) !important;
+  color: var(--mw-paper) !important;
+}
+.Footer a {
+  color: var(--mw-paper) !important;
+}
