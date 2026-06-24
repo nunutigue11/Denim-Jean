@@ -2,6 +2,12 @@
 
 Pick one from each, mix lines across options, or use these as a starting point to write your own — the point is the *voice*, not these exact words.
 
+## FINAL — locked in
+**Cover headline:** "NOTHING WASTED. NOTHING RUSHED." (Option B)
+**Pull-quote:** "WE DON'T MAKE NEW CLOTHING. WE MAKE NEW USE OF WHAT'S ALREADY HERE." (Option A)
+
+Ready-to-paste HTML for both is in the "How to use these in Squarespace" section at the bottom.
+
 ---
 
 ## Cover headline (Section 01)

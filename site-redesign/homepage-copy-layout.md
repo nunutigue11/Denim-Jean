@@ -19,9 +19,9 @@ Everything below applies that system to your actual site.
 **Image:** Your best process or product shot — the denim sewing close-up (gold rivets) or a World Maison piece, ideally with a painterly/textured backdrop like the Miss Sixty reference rather than plain white.
 **Copy (large, magazine-headline scale):**
 > MR. MIDWEST
-> ISSUE 01 — THE MIDWEST ISSUE
+> NOTHING WASTED. NOTHING RUSHED.
 
-**Small subline below:** "Handmade in the Midwest. One piece at a time."
+**Small subline below:** "Custom denim. One-of-one garments. Missouri-made."
 
 *Why:* "ISSUE 01" framing alone does most of the work — it tells the visitor they're reading something curated, not browsing inventory.
 
@@ -83,12 +83,11 @@ This is where Show Me Tee, Missouri Lady Tee, Mr. Omen Tee etc. live.
 
 ## Section 06 — Pull-quote break
 **Layout:** Full-width section, no image, just oversized type centered or left-aligned, exactly like the "Features" chapter-divider reference page.
-**Copy (placeholder, swap for something true to your voice):**
-> "WE DON'T MAKE
-> *CLOTHING.*
-> WE MAKE
-> RECORDS OF WHERE
-> THINGS HAVE BEEN."
+**Copy (final):**
+> WE DON'T MAKE
+> *NEW* CLOTHING.
+> WE MAKE NEW USE
+> OF WHAT'S ALREADY HERE.
 
 *Why:* A pure-typography breather section between product sections is what separates a magazine from a catalog. It costs nothing to build and resets the visitor's attention.
 
