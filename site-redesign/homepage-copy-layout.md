@@ -19,7 +19,7 @@ Everything below applies that system to your actual site.
 **Image:** Your best process or product shot — the denim sewing close-up (gold rivets) or a World Maison piece, ideally with a painterly/textured backdrop like the Miss Sixty reference rather than plain white.
 **Copy (large, magazine-headline scale):**
 > MR. MIDWEST
-> NOTHING WASTED. NOTHING RUSHED.
+> NOTHING WASTED.
 
 **Small subline below:** "Custom denim. One-of-one garments. Missouri-made."
 
