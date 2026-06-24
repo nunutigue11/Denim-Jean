@@ -106,3 +106,102 @@ h1, h2, h3, .sqsrte-large {
 .Footer a {
   color: var(--mw-paper) !important;
 }
+
+/* =========================================================
+   EDITORIAL / MAGAZINE SYSTEM
+   Add these classes via Code Blocks in the Squarespace editor
+   to build the "issue" layout described in homepage-copy-layout.md
+   ========================================================= */
+
+/* Chapter/section numeral, e.g. <div class="mw-chapter-num">03</div> */
+.mw-chapter-num {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--mw-ink);
+  margin-bottom: 0.25em;
+}
+
+/* Small caption next to/under a chapter numeral, e.g. "AVAILABLE NOW" */
+.mw-chapter-label {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: var(--mw-accent);
+}
+
+/* Oversized magazine-headline statement, mixed weight.
+   Use <span class="mw-italic"> on the word(s) you want italicized,
+   like "DON'T BE / AFRAID / OF ART" reference. */
+.mw-headline {
+  font-size: clamp(3rem, 9vw, 8rem);
+  line-height: 0.95;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.mw-headline .mw-italic {
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* Pull-quote break section (Section 06) */
+.mw-pullquote {
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  line-height: 1.05;
+  font-weight: 700;
+  max-width: 14ch;
+}
+.mw-pullquote .mw-italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Lookbook collage grid (Section 03) — scattered, uneven sizing
+   instead of a locked product grid. Wrap items in
+   <div class="mw-collage"><div class="mw-collage-item mw-size-lg">...</div>...</div> */
+.mw-collage {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+.mw-collage-item {
+  grid-column: span 2;
+}
+.mw-collage-item.mw-size-lg {
+  grid-column: span 3;
+}
+.mw-collage-item.mw-size-sm {
+  grid-column: span 2;
+  margin-top: 15%; /* stagger smaller crops downward, like a lookbook */
+}
+.mw-collage-item img {
+  width: 100%;
+  display: block;
+}
+@media (max-width: 768px) {
+  .mw-collage { grid-template-columns: repeat(2, 1fr); }
+  .mw-collage-item, .mw-collage-item.mw-size-lg, .mw-collage-item.mw-size-sm {
+    grid-column: span 1;
+    margin-top: 0;
+  }
+}
+
+/* Magazine masthead treatment for the logo on the cover/hero section */
+.mw-masthead {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 700;
+}
+.mw-issue-tag {
+  text-align: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 4px;
+  color: var(--mw-accent);
+}

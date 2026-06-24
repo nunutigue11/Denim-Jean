@@ -1,70 +1,101 @@
-# Mr. Midwest — Homepage Layout & Copy Spec
+# Mr. Midwest — Homepage Layout & Copy Spec (Editorial / Magazine System)
 
 How to use this: rebuild the homepage in the Squarespace editor section-by-section in this order. Each section below = one Squarespace "section" (full-width block you add via the + button).
 
+## The concept, stated plainly
+Stop designing "a homepage." Design **an issue**. Every reference you sent — the diary grid with day numbers, "DON'T BE AFRAID OF ART" in oversized type, the "2 / Features" chapter divider, the MIAVIA lookbook collage, the Miss Sixty painterly ad — is the same move: **treat the page like print**, not like a web store. That means:
+- Big numbered section markers (01, 02, 03...) instead of plain nav
+- One oversized type statement per section, not paragraphs of marketing copy
+- Pull-quotes used as design elements, not just text
+- Collage/scattered lookbook grids for fashion imagery instead of a flat product grid
+- Fine-art or painterly backdrops behind the product shots when possible (this is what made the Miss Sixty image read as luxury instead of catalog)
+
+Everything below applies that system to your actual site.
+
 ---
 
-## Section 1 — Hero
-**Layout:** Full-bleed background image/video, logo centered or top-left, minimal text overlay.
-**Image:** Your best process or product shot — the denim sewing close-up (the gold rivets shot) or a World Maison piece. Not a product-on-white shot.
-**Copy:**
+## Section 01 — Cover (hero)
+**Layout:** Treat it like a magazine cover. Full-bleed image, masthead-style logo placement (top, centered, like a magazine title), one oversized line of copy bottom-left or bottom-right — not centered, not boxed.
+**Image:** Your best process or product shot — the denim sewing close-up (gold rivets) or a World Maison piece, ideally with a painterly/textured backdrop like the Miss Sixty reference rather than plain white.
+**Copy (large, magazine-headline scale):**
 > MR. MIDWEST
-> Handmade in the Midwest. One piece at a time.
+> ISSUE 01 — THE MIDWEST ISSUE
 
-**CTA buttons (two, side by side):** "Shop World Maison" / "Denim Alteration & Repair"
+**Small subline below:** "Handmade in the Midwest. One piece at a time."
 
-*Why:* Right now the homepage drops straight into a product grid with sidebar filters. That reads as inventory, not a brand. The hero's job is to make someone feel something in 2 seconds before they see a single price tag.
+*Why:* "ISSUE 01" framing alone does most of the work — it tells the visitor they're reading something curated, not browsing inventory.
 
 ---
 
-## Section 2 — The Split (two brand doors)
-**Layout:** Two large image tiles side by side (stacks on mobile), each clickable, covering the full section.
+## Section 02 — The Split (two brand doors)
+**Layout:** Two large image tiles side by side (stacks on mobile). Add a small "02" numeral top-left of the section, like a magazine page number/chapter marker.
 
 **Tile 1 — World Maison**
-Image: your best one-of-one garment shot (the firefighter jacket or the distressed denim look)
-Overlay text: "WORLD MAISON — One of one. Made from what's already here."
-Link: World Maison collection page
+Image: your best one-of-one garment shot (firefighter jacket or distressed denim look), painterly/textured background if you can shoot or composite one
+Oversized overlay text (stacked, mixed weight like the "DON'T BE AFRAID OF ART" reference):
+> WORLD
+> *MAISON*
+
+Small line beneath: "One of one. Made from what's already here."
 
 **Tile 2 — Tigue Denim**
 Image: sewing machine / repair process shot
-Overlay text: "TIGUE DENIM — Alteration & repair, done right."
-Link: Tigue Denim service page
+Oversized overlay text:
+> TIGUE
+> *DENIM*
 
-*Why:* This replaces the flat sidebar taxonomy (ALL / WORLD MAISON / OMEN DENIM / SWAP STUDIOS) as the primary navigation. Two clear doors, not four ambiguous filter labels.
+Small line beneath: "Alteration & repair, done right."
 
----
-
-## Section 3 — World Maison teaser strip
-**Layout:** Horizontal scroll or 3-up grid of CURRENT one-of-one pieces only (not the t-shirts).
-**Label above grid:** "AVAILABLE NOW — once it's gone, it's gone"
-**Each product card shows:** image, name, price, and a small "1 of 1" tag.
-**Below grid:** link "View full collection →"
-
-*Why:* Scarcity needs to be visible on the homepage, not buried in a collection page. This is the single highest-leverage change for the "luxury" feeling.
+*Why:* This replaces the flat sidebar taxonomy (ALL / WORLD MAISON / OMEN DENIM / SWAP STUDIOS) as the primary navigation, and the oversized mixed-weight type is the exact device from your "DON'T BE AFRAID OF ART" reference.
 
 ---
 
-## Section 4 — Tigue Denim process
-**Layout:** 3-step horizontal layout (you already have icons for this — reuse them, just make them bigger and add real photography behind/around them instead of plain white background).
+## Section 03 — World Maison lookbook strip
+**Layout:** Not a clean grid — a **collage**, like the MIAVIA reference: pieces at slightly different sizes, a few cropped close-ups (collar, hem, hardware detail) mixed in next to full-body shots, loosely scattered rather than locked to a grid.
+**Label:** small chapter marker "03 — AVAILABLE NOW" + line "once it's gone, it's gone"
+**Each piece:** image, name, price, "1 of 1" tag (small, like a magazine photo credit, not a shouty badge)
+**Below:** "View full collection →"
+
+*Why:* A locked grid says "store." A collage with varied crop sizes says "lookbook." This is the highest-leverage visual change for the luxury feeling.
+
+---
+
+## Section 04 — Tigue Denim process
+**Layout:** Keep the 3-step structure, but present it like a magazine "how-to" spread — numbered big (01/02/03 in the same oversized type as the rest of the page), real photography instead of plain icons, set on a textured/paper-tone background instead of white.
 1. Submit your request (photo of form/jeans)
 2. Get a quote, approve & pay
 3. Receive your repaired denim
 
 **Below:** "Starting at $—" + button "Start Your Request"
 
-*Why:* Keep the structure you already have (it's good), just stop presenting it like a plain support page. It should feel like a tailor's atelier, not a help-desk form.
+*Why:* Same system, applied to the service page — it shouldn't suddenly feel like a help-desk form once you leave the homepage.
 
 ---
 
-## Section 5 — Standard goods (tees, basics)
-**Layout:** Normal grid, but labeled clearly as a separate tier: "MISTER MIDWEST GOODS" with a one-line description: "Everyday pieces. Missouri-made."
+## Section 05 — Standard goods (tees, basics)
+**Layout:** Chapter marker "05 — MISTER MIDWEST GOODS." Normal grid is fine here — this is the one section that's allowed to look like a clean shop, because it's the everyday tier, not the art tier.
+One-line description: "Everyday pieces. Missouri-made."
 This is where Show Me Tee, Missouri Lady Tee, Mr. Omen Tee etc. live.
 
-*Why:* Don't mix $35 tees with $350 one-of-ones in the same grid — it drags the perceived value of the expensive pieces down. Separate tiers, separate sections.
+*Why:* Don't mix $35 tees with $350 one-of-ones in the same grid — it drags the perceived value of the expensive pieces down. Separate tiers, separate sections, separate visual treatment.
 
 ---
 
-## Section 6 — Email capture
+## Section 06 — Pull-quote break
+**Layout:** Full-width section, no image, just oversized type centered or left-aligned, exactly like the "Features" chapter-divider reference page.
+**Copy (placeholder, swap for something true to your voice):**
+> "WE DON'T MAKE
+> *CLOTHING.*
+> WE MAKE
+> RECORDS OF WHERE
+> THINGS HAVE BEEN."
+
+*Why:* A pure-typography breather section between product sections is what separates a magazine from a catalog. It costs nothing to build and resets the visitor's attention.
+
+---
+
+## Section 07 — Email capture
+**Chapter marker:** "07 — SUBSCRIBE"
 **Copy:** "Get notified when a new one-of-one drops. We don't restock."
 **Field:** email only, one button "Notify Me"
 
@@ -72,8 +103,8 @@ This is where Show Me Tee, Missouri Lady Tee, Mr. Omen Tee etc. live.
 
 ---
 
-## Section 7 — Footer
-Keep simple: nav links, Instagram, contact, no extra clutter.
+## Section 08 — Footer
+Keep simple: nav links, Instagram, contact, no extra clutter. Small "MR. MIDWEST — ISSUE 01" credit line, like a magazine colophon.
 
 ---
 
